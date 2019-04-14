@@ -24,7 +24,9 @@ wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo
 rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
 ```
 
-Note: If you've previously imported the key from Jenkins, the "rpm --import" will fail because you already have a key. Please ignore that and move on.
+
+>Note: If you've previously imported the key from Jenkins, the "rpm --import" will fail because you already have a key. Please ignore that and move on.
+
 
 3 Install the Jenkins package by issuing the following command:
 ```
@@ -46,7 +48,7 @@ ps -aux | grep jenkins
 ## Auto-Start Jenkins Service on system reboot
 You can ensure that Jenkins will start following a system reboot by issuing the following command:
 ```
-sudo chkconfig jenkins on
+chkconfig jenkins on
 ```
 
 ## Stop Jenkins Service
