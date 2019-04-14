@@ -1,7 +1,7 @@
 # Install Jenkins on AWS EC2 Instance
 
 
-## Launch Redhat Linux EC2 Instance
+## Launch a Linux EC2 Instance and configure security group.
 
 
 ## Update the installed packages
