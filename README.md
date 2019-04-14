@@ -1,7 +1,11 @@
 # Install Jenkins on AWS EC2 Instance
 
+Jenkins is an open source automation server written in Java. Basically, Jenkins provides a continuous integration (CI) and continuous delivery (CD) solution to accelerate the software delivery process.
+
 
 ## Launch a Linux EC2 Instance and configure security group.
+
+
 
 
 ## Update the installed packages
